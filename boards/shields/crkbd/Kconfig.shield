@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_CRKBD_LEFT
+	def_bool $(shields_list_contains,crkbd_left)
+
+config SHIELD_CRKBD_RIGHT
+	def_bool $(shields_list_contains,crkbd_right)

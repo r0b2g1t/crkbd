@@ -1,6 +1,6 @@
 file_format: "1"
-id: corne
-name: CORNE
+id: crkbd
+name: CRKBD
 type: shield
 url: https://github.com/Bastardkb/TBK-Mini
 requires: [Nice!Nano]
@@ -10,5 +10,5 @@ features:
   - display
   - underglow
 siblings:
-  - corne_left
-  - corne_right
+  - crkbd_left
+  - crkbd_right
